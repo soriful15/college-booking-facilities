@@ -7,6 +7,7 @@ import ErrorPage from "../Layout/ErrorPage";
 import Home from "../Page/Home/Home/Home";
 import Login from "../Page/Login/Login";
 import Register from "../Page/Register/Register";
+import CollageDetails from "../Page/CollageDetails/CollageDetails";
 
 
 
@@ -28,6 +29,12 @@ const router = createBrowserRouter([
               {
                 path: '/register',
                 element: <Register></Register>
+              },
+
+              {
+                path: '/collegeDetails/:id',
+                element: <CollageDetails></CollageDetails>,
+                loader: ({params})=> fetch(`http://localhost:5000/allCollection/${params.id}`)
               },
         ]
     },

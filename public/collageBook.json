@@ -1,0 +1,62 @@
+[
+    {
+      "name": "Harmony University College",
+      "admissionDates": "August 1 - August 31",
+      "events": "Freshers' Welcome, Cultural Fest, Fair",
+      "research": "Known for pioneering research in environmental sustainability and renewable energy.",
+      "sports": "Soccer, Tennis, Athletics",
+      "image": "college1.jpg",
+      "ratings": "4.5",
+      "history": "Harmony University College, commonly known as HUC, is a prestigious institution of higher education that has a rich history of academic excellence and community engagement. It was founded in 1932 by visionary educationists who aimed to create a harmonious and inclusive learning environment for students from all walks of life."
+    },
+    {
+      "name": "TechHub Institute",
+      "admissionDates": "July 15 - August 15",
+      "events": "Tech Expo, Hackathon, Industry Talks",
+      "research": "A leading center for cutting-edge technology research and innovation.",
+      "sports": "Basketball, Table Tennis, Swimming",
+      "image": "college2.jpg",
+      "ratings": "4.8",
+      "history": "TechHub Institute is a renowned institution that has a rich history of technological innovation and academic excellence. It was founded in 2001 by a group of tech enthusiasts and industry professionals who aimed to establish a cutting-edge educational hub for fostering technology-driven solutions and nurturing the next generation of tech leaders."
+    },
+    {
+      "name": "Creative Arts Academy",
+      "admissionDates": "July 20 - September 5",
+      "events": "Art Showcase, Theater Fest, Design Workshops",
+      "research": "Celebrated for fostering creativity and excellence in the arts.",
+      "sports": "Dance, Yoga, Archery",
+      "image": "college3.jpg",
+      "ratings": "4.7",
+      "history": "Creative Arts Academy (CAA) is a prestigious institution that has a rich history of fostering creativity and excellence in the arts. It was founded in 1987 by a group of passionate artists, educators, and visionaries who recognized the need for an institution dedicated to nurturing the artistic talents of individuals."
+    },
+    {
+      "name": "Health Sciences University",
+      "admissionDates": "September 1 - September 30",
+      "events": "Health Fair, Medical Symposium, Public Health Campaigns",
+      "research": "Renowned for advancing medical research and healthcare practices.",
+      "sports": "Swimming, Volleyball, Crossfit",
+      "image": "college4.jpg",
+      "ratings": "4.6",
+      "history": "Health Sciences University is a distinguished institution with a rich history of excellence in medical education, research, and healthcare advancements. It was founded in 1965 by a group of eminent healthcare professionals who aimed to provide comprehensive medical education and improve public health on a global scale."
+    },
+    {
+      "name": "Business & Finance Institute",
+     "admissionDates": "October 15 - November 15",
+      "events": "Business Expo, Finance Conference, Entrepreneurship Workshops",
+     "research": "A hub for cutting-edge research in business, finance, and entrepreneurship.",
+      "sports": "Golf, Chess, Basketball",
+      "image": "college5.jpg",
+      "ratings": "4.9",
+      "history": "Business & Finance Institute (BFI) is a prestigious institution with a rich history of excellence in business education and entrepreneurship development. It was founded in 1970 by visionary entrepreneurs and finance experts who aimed to cultivate future business leaders and promote economic growth through innovative business practices."
+    },
+    {
+      "name": "Environmental Studies College",
+      "admissionDates": "March 15 - April 30",
+      "events": "Environmental Expo, Sustainability Summit, Conservation Campaigns",
+      "research": "A trailblazer in environmental studies and sustainable development.",
+      "sports": "Hiking, Cycling, Kayaking",
+      "image": "college6.jpg",
+      "ratings": "4.7",
+      "history": "Environmental Studies College is a leading institution that has a rich history of fostering environmental awareness and sustainable development. It was founded in 1980 by a group of environmentalists and conservationists who aimed to address pressing environmental challenges through education, research, and advocacy."
+    }
+  ]
