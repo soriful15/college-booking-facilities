@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import CollageCard from './CollageCard';
+import AllCollege from './AllCollege';
 
-const CollageSection = () => {
-
+const College = () => {
     const [allCollage, setAllCollage] = useState([])
     const [search, setSearch] = useState("a")
     useEffect(() => {
@@ -21,12 +20,9 @@ const CollageSection = () => {
                 setAllCollage(data)
             })
     }
-
-
-
     return (
         <>
-            <h1 className='text-center font-bold text-5xl text-purple-400 mt-7'>Top 3 Collage Collection</h1>
+               <h1 className='text-center font-bold text-5xl text-purple-400 mt-7'>All Collage Collection</h1>
             <div className='text-center flex justify-center gap-3 mt-6 '>
 
                 <button onClick={handleSearch} className="btn btn-success">Search All Collage</button>
@@ -37,14 +33,14 @@ const CollageSection = () => {
             <div className='grid md:grid-cols-2 lg:grid-cols-3 mt-10 gap-14  container mx-auto lg:mr-20'>
 
                 {
-                    allCollage.slice(0,3).map(collages => <CollageCard
+                    allCollage.map(collages => <AllCollege
                         key={collages._id}
                         collages={collages}
-                    ></CollageCard>)
+                    ></AllCollege>)
                 }
             </div>
         </>
     );
 };
 
-export default CollageSection;
+export default College;

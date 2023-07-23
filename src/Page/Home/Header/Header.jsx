@@ -30,7 +30,7 @@ const Header = () => {
                             Home
                         </NavLink></li>
                         <li>
-                            <NavLink to='/collage' title='Collage' className={({ isActive }) => isActive ? "text-blue-600" : ''}>
+                            <NavLink to='/college' title='Collage' className={({ isActive }) => isActive ? "text-blue-600" : ''}>
                                Collage
                             </NavLink>
                         </li>
@@ -68,7 +68,7 @@ const Header = () => {
                         Home
                     </NavLink></li>
                     <li>
-                            <NavLink to='/collage' title='Collage' className={({ isActive }) => isActive ? "text-blue-600" : ''}>
+                            <NavLink to='/college' title='Collage' className={({ isActive }) => isActive ? "text-blue-600" : ''}>
                                Collage
                             </NavLink>
                         </li>

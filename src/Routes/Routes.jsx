@@ -8,6 +8,7 @@ import Home from "../Page/Home/Home/Home";
 import Login from "../Page/Login/Login";
 import Register from "../Page/Register/Register";
 import CollageDetails from "../Page/CollageDetails/CollageDetails";
+import College from "../Page/College/College";
 
 
 
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
               {
                 path: '/register',
                 element: <Register></Register>
+              },
+              {
+                path: '/college',
+                element: <College></College>
               },
 
               {

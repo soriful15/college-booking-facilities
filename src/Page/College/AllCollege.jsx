@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaEye } from "react-icons/fa";
-const CollageCard = ({ collages }) => {
+const AllCollege = ({collages}) => {
     const { name, admissionDates, events, research, sports, image, _id } = collages
     return (
         <>
@@ -18,12 +18,8 @@ const CollageCard = ({ collages }) => {
                     </div>
                 </div>
             </div>
-
-
-
-
         </>
     );
 };
 
-export default CollageCard;
+export default AllCollege;
