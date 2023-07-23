@@ -9,7 +9,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
  <AuthProvider>
 
 
-<div className='max-w-7xl mx-auto'>
+<div className=''>
     <RouterProvider router={router} />
   </div>
  </AuthProvider>
