@@ -40,19 +40,18 @@ const Header = () => {
                             </NavLink>
                         </li>
 
-                        {
-                            user ? <>
+                        
                                <li>
                                 <NavLink to='/myCollage' title='My Collage' className={({ isActive }) => isActive ? "text-blue-600" : ''}>
                                     My Collage
                                 </NavLink>
                             </li>
-                            </> : <li>
+                             {/* <li>
                                 <NavLink to='/login' title=' Login Link' className={({ isActive }) => isActive ? "text-blue-600" : ''}>
                                     Login
                                 </NavLink>
-                            </li>
-                        }
+                            </li> */}
+                        
 
 
 
@@ -78,24 +77,23 @@ const Header = () => {
                             </NavLink>
                         </li>
 
-                    {
-                        user ? <>
+                  
                              <li>
                                 <NavLink to='/myCollage' title='My Collage' className={({ isActive }) => isActive ? "text-blue-600" : ''}>
                                     My Collage
                                 </NavLink>
                             </li>
-                        </> : <li>
+                        {/* <li>
                             <NavLink to='/login' title=' Login Link' className={({ isActive }) => isActive ? "text-blue-600" : ''}>
                                 Login
                             </NavLink>
-                        </li>
-                    }
+                        </li> */}
+                    
 
                 </ul>
             </div>
             {
-                user && <>
+                user ? <>
 
                     <div className="navbar-end ">
                         <div className="dropdown dropdown-end">
@@ -114,9 +112,13 @@ const Header = () => {
                                 <li><Link to='/login' className='font-bold' onClick={handleLogOut}>Logout</Link></li>
                             </ul>
                         </div>
-                    </div>
-
-                </>
+                    </div> </>
+:   <li>
+                            <NavLink to='/login' title=' Login Link' className={({ isActive }) => isActive ? "text-blue-600" : ''}>
+                                Login
+                            </NavLink>
+                        </li>
+               
             }
 
 

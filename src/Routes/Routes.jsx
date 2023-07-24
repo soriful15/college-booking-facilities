@@ -9,6 +9,7 @@ import Login from "../Page/Login/Login";
 import Register from "../Page/Register/Register";
 import CollageDetails from "../Page/CollageDetails/CollageDetails";
 import College from "../Page/College/College";
+import PrivateRoute from "./PrivateRoute";
 
 
 
@@ -38,8 +39,8 @@ const router = createBrowserRouter([
 
               {
                 path: '/collegeDetails/:id',
-                element: <CollageDetails></CollageDetails>,
-                loader: ({params})=> fetch(`http://localhost:5000/allCollection/${params.id}`)
+                element: <PrivateRoute><CollageDetails></CollageDetails></PrivateRoute>,
+                loader: ({params})=> fetch(`https://collage-booking-facilities-server-side.vercel.app/allCollection/${params.id}`)
               },
         ]
     },

@@ -1,4 +1,4 @@
-import { Rating } from '@smastrom/react-rating';
+// import { Rating } from '@smastrom/react-rating';
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 
@@ -11,8 +11,8 @@ const CollageDetails = () => {
             <div className='container mx-auto mt-16 max-w-7xl'>
 
 
-                <div className="card lg:card-side bg-base-100 shadow-xl lg:h-[400px]">
-                    <img src={image} className=' lg:h-[400px] lg:w-[700px]' alt="Album" />
+                <div className="card lg:card-side bg-base-100 shadow-xl lg:h-[600px]">
+                    <img src={image} className=' lg:h-[600px] lg:w-[600px]' alt="Album" />
                     <div className="card-body">
                         <h2 className="card-title font-bold">Name:{name}</h2>
                         <p className='text-sm text-amber-800'>AdmissionDates:{admissionDates}</p>
@@ -20,9 +20,10 @@ const CollageDetails = () => {
                         <p className='text-lg text-purple-900 font-semibold'>Research:{research}</p>
                         <p className='font-bold text-sky-900'>Sports:{sports}</p>
                         <p className='font-normal text-lg text-green-800'>History: {history}</p>
-                        <div className='flex  items-center'>
-                            <Rating style={{ maxWidth: 150 }} value={Math.round(ratings) || 0} readOnly /><span className='ms-2'> {ratings}</span>
-                        </div>
+                        <p className='font-normal text-lg text-yellow-600'>Rating: {ratings}</p>
+                        {/* <div className=''>
+                            <Rating style={{ maxWidth: 50 }} className='flex text-orange-900' value={Math.round(ratings) || 0} readOnly /><span className='ms-2'> {ratings}</span>
+                        </div> */}
                     </div>
                 </div>
 

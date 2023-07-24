@@ -6,7 +6,7 @@ const CollageSection = () => {
     const [allCollage, setAllCollage] = useState([])
     const [search, setSearch] = useState("a")
     useEffect(() => {
-        fetch(`http://localhost:5000/allCollection`)
+        fetch(`https://collage-booking-facilities-server-side.vercel.app/allCollection`)
             .then(res => res.json())
             .then(data => setAllCollage(data))
     }, [])
@@ -14,7 +14,7 @@ const CollageSection = () => {
 
 
     const handleSearch = () => {
-        fetch(`http://localhost:5000/collegeSearch/${search}`)
+        fetch(`https://collage-booking-facilities-server-side.vercel.app/collegeSearch/${search}`)
             .then(res => res.json())
             .then(data => {
                 console.log(data)
